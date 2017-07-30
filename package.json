@@ -1,14 +1,14 @@
 {
   "name": "har-to-dir",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple tool to convert an HAR (HTTP Archive format) to the original files. Fast way to dump an entire website.",
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "colthreepv <mister.gamer@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@types/mkdirp": "^0.5.0",
     "@types/node": "^8.0.17",
