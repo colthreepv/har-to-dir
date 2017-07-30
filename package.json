@@ -1,9 +1,10 @@
 {
   "name": "har-to-dir",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple tool to convert an HAR (HTTP Archive format) to the original files. Fast way to dump an entire website.",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "rimraf dist && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,5 +13,9 @@
     "@types/mkdirp": "^0.5.0",
     "@types/node": "^8.0.17",
     "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.1",
+    "typescript": "^2.4.2"
   }
 }
